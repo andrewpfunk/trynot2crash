@@ -1,3 +1,5 @@
+const couchbase = require('couchbase')
+
 const handler = async (event) => {
   // only allow GET requests
   if (event.httpMethod !== 'GET') {
